@@ -78,6 +78,10 @@ body {
     p{
         color: whitesmoke;
     }
+    .content a:visited {
+        color: rgb(195, 228, 8);
+        
+    }
     @media only screen and (max-width: 768px){
 
         label {
