@@ -1,49 +1,223 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jonathan Roldan's Portfolio</title>
-    <link rel="stylesheet" href="nonbootstrapcss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Jonathan Roldan | Full-stack Developer & Mentor</title>
+
+    <!--CSS LINKING-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/portfolio.css">
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!--Database-->
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <!-- font-family: 'Dosis', sans-serif -->
+
+    <!--Icons-->
 </head>
 
 <body>
-
-    <header>
-        <div class="container">
-
-            <h1> Jonathan Roldan</h1>
-
-            <nav>
-                <label for="toggle">&#9776;</label>
-                <input type="checkbox" id="toggle"/>
-                <div class="menu">
-                    <ul>
-                        <li><a href="Portfolio.html">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+    <section class="hero is-fullheight">
+        <header class="hero-head">
+            <nav class="navbar" id="navMenu">
+                <div class="navbar-brand is-flex">
+                    <div class="navbar-start">
+                        <i class="fab fa-github-square navbar-item"></i>
+                        <i class="fab fa-twitter-square navbar-item"></a></i>
+                    </div>
                 </div>
             </nav>
-            
+        </header>
+
+
+        <div class="hero-body">
+            <div class="container">
+                <div class="level-item">
+                    <a class="logoLink is-centered" href="#">
+                        <img src="assets/IMAGES/portfolio-logo1-01.png" id="logo" alt="Jonathan Roldan">
+                    </a>
+                </div>
+                <p class="column has-text-centered" id="intro">
+                    Full-Stack Developer living in Central Florida
+                </p>
+            </div>
         </div>
-            
-        
+    </section>
 
-        
-    </header>
 
-    <a href="#"><img src= "http://tradepending.com/wp-content/uploads/2015/03/placeholder-1024x769.png"></a>
 
-    <p>
-        I was introduced to computers at a very young age for my generation, tampering with hardware
-        at the age of 5 I was able to absorb that information fairly quickly. My goal by the end of this
-        class is to have the Web Development piece catching traction and eventually head into Mobile Software 
-        development. A lot of people consider me determined, consistent and passionate about the things I have sought
-        after in the past and I am confident that this adventure will be no different. 
-    </p>
+
+    <br>
+
+    <!--ABOUT ME-->
+    <div class="hero is-info is-large has-text-centered " id="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-three-fifths" id="whiteFont">
+                        <br>
+                        <h1>Hello, I'm Jonathan</h1>
+                        <br>
+                        <p id="aboutMe">
+                            Recently I have finally pulled the trigger in changing my career to something I have always had a passion for, Coding. In
+                            May, 2018 I enrolled into the University of Central Florida's Coding Bootcamp, in my time there
+                            I had the opportunity to learn from vested developers in the industry putting actual use case's
+                            to the activities and projects that were created. I was also involved in multiple team oriented
+                            projects giving us the chance to put both Scrum and Agile methodolgies to work.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+    <!--ROLES, THINGS I SPECIALIZE IN-->
+
+    <div class="level">
+        <div class="tile is-ancestor">
+            <div class="tile is-4">
+                <div class="tile is-parent">
+                    <div class="tile is-child box has-text-centered">
+                        <p class="title">Languages I work with: </p>
+                        <ul>
+                            <p class="subtitle">Strengths</p>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <br>
+
+                        <ul>
+                            <p class="subtitle">Opportunities</p>
+                            <li>Shortening Solutions</li>
+                            <li>Relying less on Web Solutions</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="tile is-4">
+                <div class="tile is-parent">
+                    <div class="tile is-child box has-text-centered">
+                        <p class="title">Other tools I use: </p>
+                        <ul>
+                            <p class="subtitle">MERN Stack</p>
+
+                            <li>MongoDB</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>Node</li>
+
+                            <br>
+
+                            <p class="subtitle">Testing & Version Control</p>
+
+                            <li>GitHub</li>
+                            <li>Heroku</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tile is-4">
+                <div class="tile is-parent">
+                    <div class="tile is-child box has-text-centered">
+                        <p class="title ">Practices I live by: </p>
+                        <ul>
+                            <p class="subtitle">Agile</p>
+                            <ol>
+                                <li>Sprint Planning</li>
+                                <li>Daily Scrum Stand-Ups</li>
+                                <li>Sprint Retrospectives</li>
+                            </ol>
+                            <br>
+                            <br>
+                            <p class="subtitle">Kanban Method</p>
+                            <li>Project Management</li>
+                            <li>Open communication</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="hero is-white has-text-centered" id="hero">
+        <div class="hero-body">
+            <br>
+            <h1 id="projecth1">Projects</h1>
+            <div class="level">
+                <div class="tile is-parent is-6">
+                    <article class="tile is-child notification">
+                        <p class="title">Train Management</p>
+                        <p class="subtitle">Front End, Javascript</p>
+                        <div class="content">
+                            <a class="train-link" href="https://jonotann.github.io/train/">
+                                <!-- Content -->
+                                <img src="assets/IMAGES/train.png" id="train" alt="train-manage">
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="tile is-parent is-6">
+                    <article class="tile is-child notification">
+                        <p class="title">Search Assistant</p>
+                        <p class="subtitle">Backend, Node terminal</p>
+                        <div class="content">
+                            <!-- Content -->
+                            <a class="assist-link" href="https://github.com/jonotann/liri">
+                                <img src="assets/IMAGES/assistant.png" id="node" alt="assistant">
+                            </a>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <p class="project-exp">If you like the pair of projects that are listed, feel free to check out my <a id="git"
+                    href="https://github.com/jonotann">GitHub</a> for other projects like this and things that I am currently
+                working on!
+            </p>
+        </div>
+
+    </div>
+    <!--RECENT PROJECTS-->
+    <!--INTERESTED IN WORKING WITH ME? (INSERT BASIN LINK)-->
+    <!--LOGO, QUOTE, ALL LINKS TO SOCIAL -->
+    <footer class="section level">
+        <h1 class="reachOut level-left">
+           Think I'm the guy for the job? Reach out!
+        </h1>
+        <div class="level-right">
+            <a id="buttonPlz" class="button is-outlined">jonathnrldn@gmail.com</a>
+        </div>
+
+    </footer>
+
+    <!--Javascript-->
+    <!-- <script type="text/javascript" src="assets/javascript/home.js"></script> -->
 
 </body>
+
+</html>

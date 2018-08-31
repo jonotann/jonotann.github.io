@@ -1,0 +1,99 @@
+body {
+    background: #000000;
+}
+h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+}
+h5 {
+    font-size: 15px;
+    font-weight: normal;
+}
+#intro{
+    color: white;
+}
+#logo {
+    width: 500px;
+    height: 400px;
+}
+#hero, #hero-body {
+    background: rgb(234, 10, 142);
+    /* font-family: 'dosis', sans-serif; */
+    font-style: #000;
+}
+#footer {
+    background: #000;
+}
+#whiteFont {
+    color: white;
+}
+#aboutMe {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+.headShot {
+    height: 350px;
+    width: 350px;
+}
+#navList {
+    margin: 10px;
+    padding-right: 15px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    color: rgb(234, 10, 142);
+}
+.fa-twitter-square, .fa-github-square{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(234, 10, 142);
+}
+.fa-github-square:hover{
+    color: white;
+    opacity: .75;
+}
+.fa-twitter-square:hover{
+    color: white;
+    opacity: .75;
+}
+#navList:hover {
+    color: white;
+    opacity: .75;
+}
+ol {
+    list-style-type: none;
+}
+.subtitle {
+    font-weight: bolder;
+}
+.navbar-start{
+    margin-right: auto;
+}
+.navbar-end {
+    margin-left: auto;
+}
+footer {
+    color: white;
+}
+#train {
+    width: 500px;
+    height: 250px;
+}
+#node {
+    width: 500px;
+    height: 250px;
+}
+.project-exp {
+    color: white;
+}
+#git {
+    color: black;
+}
+#git:hover {
+    color: white;
+}
+#buttonPlz {
+    color: rgb(234, 10, 142);
+}
