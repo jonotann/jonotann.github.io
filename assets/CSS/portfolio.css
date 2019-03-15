@@ -68,6 +68,9 @@ ol {
 .subtitle {
     font-weight: bolder;
 }
+.navbar-brand{
+    width: 100%;
+}
 .navbar-start{
     margin-right: auto;
 }
@@ -78,11 +81,11 @@ footer {
     color: white;
 }
 #train {
-    width: 500px;
+    width: 350px;
     height: 250px;
 }
 #node {
-    width: 500px;
+    width: 350px;
     height: 250px;
 }
 .project-exp {

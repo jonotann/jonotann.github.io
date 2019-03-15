@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
     <link rel="stylesheet" type="text/css" href="assets/CSS/portfolio.css">
     <!--jQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 
     <!--Database-->
 
@@ -29,18 +30,28 @@
 <body>
     <section class="hero is-fullheight">
         <header class="hero-head">
-            <nav class="navbar" id="navMenu">
+            <nav class="navbar">
                 <div class="navbar-brand is-flex">
                     <div class="navbar-start">
-                        <a href="https://github.com/jonotann"><i class="fab fa-github-square navbar-item"></i></a>
-                        <a href="https://twitter.com/jon_o_tan"><i class="fab fa-twitter-square navbar-item"></i></a>
+                        <div class="blank">
+                            <a href="https://github.com/jonotann"><i class="fab fa-github-square navbar-item"></i></a>
+                        </div>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="navButtons" id="navLi">
+                            <ul class="level-item">
+                                <li><a href="#" id="navList">About</a></li>
+                                <li><a href="#" id="navList">Projects</a></li>
+                                <li><a href="#" id="navList">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
         </header>
 
 
-        <div class="hero-body">
+        <div class="hero-body level">
             <div class="container">
                 <div class="level-item">
                     <a class="logoLink is-centered" href="https://jonotann.github.io/">
@@ -69,10 +80,14 @@
                         <h1>Hello, I'm Jonathan</h1>
                         <br>
                         <p id="aboutMe">
-                            Recently I have finally pulled the trigger in changing my career to something I have always had a passion for, Coding. In
-                            May, 2018 I enrolled into the University of Central Florida's Coding Bootcamp, in my time there
-                            I had the opportunity to learn from vested developers in the industry putting actual use case's
-                            to the activities and projects that were created. I was also involved in multiple team oriented
+                            Recently I have finally pulled the trigger in changing my career to something I have always
+                            had a passion for, Coding. In
+                            May, 2018 I enrolled into the University of Central Florida's Coding Bootcamp, in my time
+                            there
+                            I had the opportunity to learn from vested developers in the industry putting actual use
+                            case's
+                            to the activities and projects that were created. I was also involved in multiple team
+                            oriented
                             projects giving us the chance to put both Scrum and Agile methodolgies to work.
                         </p>
                         <br>
@@ -175,7 +190,7 @@
                         <div class="content">
                             <a class="train-link" href="https://jonotann.github.io/train/">
                                 <!-- Content -->
-                                <img src="assets/IMAGES/train.png" id="train" alt="train-manage">
+                                <img src="assets/IMAGES/train2.png" id="train" alt="train-manage">
                             </a>
                         </div>
                     </article>
@@ -196,7 +211,8 @@
                 </div>
             </div>
             <p class="project-exp">If you like the pair of projects that are listed, feel free to check out my <a id="git"
-                    href="https://github.com/jonotann">GitHub</a> for other projects like this and things that I am currently
+                    href="https://github.com/jonotann">GitHub</a> for other projects like this and things that I am
+                currently
                 working on!
             </p>
         </div>
@@ -207,10 +223,10 @@
     <!--LOGO, QUOTE, ALL LINKS TO SOCIAL -->
     <footer class="section level">
         <h1 class="reachOut level-left">
-           Think I'm the guy for the job? Reach out!
+            Think I'm the guy for the job? Reach out!
         </h1>
         <div class="level-right">
-            <a id="buttonPlz" class="button is-outlined">jonathnrldn@gmail.com</a>
+            <a href="mailto:jonathnrldn@gmail.com" id="buttonPlz" class="button is-outlined">jonathnrldn@gmail.com</a>
         </div>
 
     </footer>
